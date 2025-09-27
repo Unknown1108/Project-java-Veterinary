@@ -11,4 +11,9 @@ package project2pars;
  */
 public class Medicina  {
 String Antiinflamatorios, Complejos, Antibioticos, Cicatrizantes, Anestesia, Sueros;
+	public Medicina() {
+			this.Antiflamatorios = "";
+   		this.Complejos = "";
+    
+  } 
 }
