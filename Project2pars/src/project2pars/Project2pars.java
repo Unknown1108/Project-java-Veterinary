@@ -21,6 +21,7 @@ static Scanner entrada = new Scanner (System.in);
                         //se crea bodega y comida
                      Comida objComida = new Comida();
                      Bodega objBodega = new Bodega();
+                     Medicina objMedi = new Medicina();
                      //se guarda el valor y se le asigna a l set Concentrado perteneciente de Comida
                      System.out.println("Cuanto concentrado general se tiene? -en libras-\n");
                   datoint = entrada.nextInt();
@@ -48,6 +49,10 @@ static Scanner entrada = new Scanner (System.in);
                     else{
                             System.out.println("Por favor repetir el ingreso y ingresar ocrrectamente los datos");
                             }
+                    System.out.println("Ahora debera ingresar los medicamentos generales:  "+"/n que antibióticos tenemos en existencia? ");
+                    datostring = entrada.nextLine();
+                    objMedi.set
+                    
                     
                     
 
@@ -55,3 +60,4 @@ static Scanner entrada = new Scanner (System.in);
         }
     }
 }
+
